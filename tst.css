@@ -1,0 +1,70 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.534);
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .card {
+    width: 25%;
+  }
+  .card-img {
+    width: 100%;
+    height: 260px;
+  }
+  h5 {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    height: 5px;
+  }
+  p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic;
+    height: 40px;
+  }
+  h4 {
+    text-align: center;
+    font-size: large;
+  }
+  .quantities {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 60px;
+    text-align: center;
+  }
+  i:hover {
+    font-size: large;
+    cursor: pointer;
+  }
+  .lidel {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: larger;
+  }
+  .fa-heart:hover {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.678);
+    cursor: pointer;
+  }
+  label {
+    font-size: x-large;
+  }
